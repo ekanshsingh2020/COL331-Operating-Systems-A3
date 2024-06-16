@@ -143,7 +143,7 @@ fs.img: mkfs $(UPROGS)
 -include *.d
 
 clean: 
-	rm -f *.tex *.dvi *.idx *.aux *.log *.ind *.ilg \
+	rm -f *.tex *.dvi *.idx *.aux *.log *.ind *.ilg *.out \
 	*.o *.d *.asm *.sym bootblock \
 	kernel xv6.img vectors.S \
 	.gdbinit mkfs fs.img initcode \
